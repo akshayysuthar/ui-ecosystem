@@ -1,0 +1,41 @@
+# Dependencies (every node_modules, at any depth)
+node_modules/
+
+# Expo / React Native build output
+.expo/
+dist/
+web-build/
+android/
+ios/
+*.apk
+*.aab
+*.ipa
+
+# Native signing keys and secrets (never commit these)
+*.jks
+*.keystore
+*.p8
+*.p12
+*.mobileprovision
+.env
+.env.*
+!.env.example
+
+# Metro / TypeScript caches
+.metro-health-check*
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+# .vscode/ settings are optional to share, so ignore everything except these two
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json

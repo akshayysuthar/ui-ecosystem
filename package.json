@@ -1,0 +1,11 @@
+{
+  "name": "ui-ecosystem",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "@expo/vector-icons": "^15.1.1"
+  }
+}
